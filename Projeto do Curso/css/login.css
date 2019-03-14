@@ -1,0 +1,13 @@
+body {
+    min-height: 100vh; /* VH= "viewport heigth" Deixa o body sempre encaixado na tela, no tamanho total da altura da tela. */
+    background-color: #cccccc;
+    background-image: url('https://unsplash.it/g/1500/800?random'); /* Código para fazer a mundança de imagens no background */
+}
+
+.login-form {
+    margin-top: 50vh;
+    height: 300px;
+    background-color: white;
+    
+    transform: translateY(-50%); /* Traduz a posição vertical do elemento para metade do tamanho que ele tiver.*/
+}
