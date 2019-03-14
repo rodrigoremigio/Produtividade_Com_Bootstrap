@@ -6,8 +6,19 @@ body {
 
 .login-form {
     margin-top: 50vh;
-    height: 300px;
-    background-color: white;
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, .9);
+    color: #ffffff;
     
     transform: translateY(-50%); /* Traduz a posição vertical do elemento para metade do tamanho que ele tiver.*/
+}
+
+.login-form h1 {
+    margin: 0 0 5px; /* UP, LEFT-RIGHT, DOWN */
+    
+}
+
+.login-form h2 {
+    margin: 0 0 30px; /* UP, LEFT-RIGHT, DOWN */
+    font-size: 1em;     
 }
